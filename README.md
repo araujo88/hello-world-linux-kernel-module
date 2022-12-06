@@ -22,7 +22,3 @@ Linux kernel module tutorial
 ### Unload the module
 
 `sudo rmmod hello_world`
-
-### Check the kernel buffer again
-
-`sudo dmesg`
