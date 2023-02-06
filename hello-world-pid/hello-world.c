@@ -7,7 +7,7 @@ MODULE_DESCRIPTION("Hello world!");
 static int hello_init(void)
 {
   
-	printk(KERN_INFO "Hello, %s\n", whom);
+	printk(KERN_INFO "Hello, world\n");
 	printk(KERN_INFO "The process ID is %d and the command name is %s\n", current->pid, current->comm);
 
 	return 0;
