@@ -1,13 +1,13 @@
-# Hello world module with parameters
+## Hello world module with parameters
 
-## Load module specifying parameters
+### Load module specifying parameters
 
-sudo insmod hello-world.ko howmany=10 whom="Mom"
+`sudo insmod hello-world.ko howmany=10 whom="Mom"`
 
-## Print kernel messages
+### Print kernel messages
 
-sudo dmesg
+`sudo dmesg`
 
-## Unload module
+### Unload module
 
-sudo rmmod hello_world
+`sudo rmmod hello_world`
